@@ -6,6 +6,8 @@ const router = express.Router();
 const teamMembers = [];
 const events = [];
 
+const contactSubmissions = [];
+
 router.get('/', (req, res) => {
     res.render('pages/home', {events})
 });
@@ -24,12 +26,19 @@ router.get('/contact', (req, res) => {
 
 router.post('/contact', (req, res) => {
     const {name, email, message} = req.body;
-
+    contactSubmissions.push({name, email, message})
+    console.log(contactSubmissions)
     res.redirect('/thankyou')
 })
 
 router.get('/thankyou', (req, res) => {
     res.render('pages/thankyou')
+});
+
+router.get('/error-test', (req, res, next) => {
+  const err = new Error("This is a test error");
+  err.status = 500;
+  next(err);
 });
 
 module.exports = router;

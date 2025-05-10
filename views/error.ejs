@@ -1,0 +1,6 @@
+<h1>Something Went Wrong</h1>
+<p><%= error.message %></p>
+<% if (error.stack) { %>
+<pre style="color: darkred; margin-top: 20px;"><%= error.stack %></pre>
+<% } %>
+<a href="/" style="text-decoration: underline;">Return to Home</a>
