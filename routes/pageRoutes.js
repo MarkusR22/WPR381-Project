@@ -27,8 +27,8 @@ router.get('/contact', (req, res) => {
 
 router.post('/contact', (req, res) => {
     const {name, email, message} = req.body;
-    contactSubmissions.push({name, email, message})
-    console.log(contactSubmissions)
+    data.contactSubmissions.push({name, email, message})
+    console.log(data.contactSubmissions)
     res.redirect('/thankyou')
 })
 
