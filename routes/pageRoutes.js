@@ -2,11 +2,12 @@
 
 const express = require('express');
 const router = express.Router();
+const data = require('../routes/Data/Data')
 
-const teamMembers = [];
-const events = [];
+//const teamMembers = []; Sent to Data file
+//const events = [];
 
-const contactSubmissions = [];
+//const contactSubmissions = [];
 
 router.get('/', (req, res) => {
     res.render('pages/home', {events})
