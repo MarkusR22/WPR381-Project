@@ -25,16 +25,18 @@ This project is a dynamic community portal website built for [Your Club Name Her
 4. Visit `http://localhost:3000` in your browser
 
 ## 📂 Folder Structure 📂
-project-root/
-├── public/ # Static files (CSS, images, etc.)
-├── routes/ # Express route logic (pageRoutes.js)
-├── utils/ # Helper functions like sorting/filtering
-├── views/ # EJS templates (pages and partials)
-├── app.js # Main Express app setup
-├── .gitignore # Git ignore rules
-├── package.json # Project metadata and dependencies
-├── package-lock.json # Auto-generated dependency tree
-└── README.md # Project documentation (you're here)
+.
+ * [tree-md](./tree-md)
+ * [dir2](./dir2)
+   * [file21.ext](./dir2/file21.ext)
+   * [file22.ext](./dir2/file22.ext)
+   * [file23.ext](./dir2/file23.ext)
+ * [dir1](./dir1)
+   * [file11.ext](./dir1/file11.ext)
+   * [file12.ext](./dir1/file12.ext)
+ * [file_in_root.ext](./file_in_root.ext)
+ * [README.md](./README.md)
+ * [dir3](./dir3)
 
 ## 🖼 Pages 🖼
 - **Home:** Welcome message + upcoming events
