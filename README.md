@@ -1,4 +1,4 @@
-# 🎮 Gaming Club Portal Website 🎮
+# 🎮 Belgium Campus Club Portal 🎮
 
 ## 💡 What This Project Does 💡
 This project is a dynamic community portal website built for [Your Club Name Here]. It allows users to learn more about the club, browse upcoming events, and get in touch through a contact form. It is built using Node.js, Express, and EJS templating.
@@ -37,8 +37,10 @@ This project is a dynamic community portal website built for [Your Club Name Her
    * [errors](https://github.com/MarkusR22/WPR381-Project/tree/main/views/errors)
    * [pages](https://github.com/MarkusR22/WPR381-Project/tree/main/views/pages)
    * [partials](https://github.com/MarkusR22/WPR381-Project/tree/main/views/partials)
- * ([./README.md](https://github.com/MarkusR22/WPR381-Project/blob/main/README.md))
- * [dir3](./dir3)
+ * [README.md](https://github.com/MarkusR22/WPR381-Project/blob/main/README.md)
+ * [app.js](https://github.com/MarkusR22/WPR381-Project/blob/main/app.js)
+ * [package-lock.json](https://github.com/MarkusR22/WPR381-Project/blob/main/package-lock.json)\
+ * [package.json](https://github.com/MarkusR22/WPR381-Project/blob/main/package.json)
 
 ## 🖼 Pages 🖼
 - **Home:** Welcome message + upcoming events
