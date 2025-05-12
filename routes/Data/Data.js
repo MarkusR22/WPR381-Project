@@ -34,7 +34,7 @@ const events = [
         id: 0,
         club: clubs[0],
         title: "LAN Party Showdown",
-        date: "2025-06-3",
+        date: "2025-06-03",
         location: Venues[1],
         description: "Join us for an All-Night LAN party featuring competative games and casual rpg's",
         imageUrl: '../public/images/LANParty.jpg',
