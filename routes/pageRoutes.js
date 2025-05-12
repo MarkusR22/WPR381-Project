@@ -10,15 +10,15 @@ const data = require('../routes/Data/Data')
 //const contactSubmissions = [];
 
 router.get('/', (req, res) => {
-    res.render('pages/home', {events})
+    res.render('pages/home', {events: data.events})
 });
 
 router.get('/about', (req, res) => {
-    res.render('pages/about', {teamMembers})
+    res.render('pages/about', {teamMembers: data.teamMembers})
 });
 
 router.get('/events', (req, res) => {
-    res.render('pages/events', {events})
+    res.render('pages/events', {events: data.events})
 });
 
 router.get('/contact', (req, res) => {
