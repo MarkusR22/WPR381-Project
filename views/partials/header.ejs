@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <a class="nav-brand" href="/">Community Portal</a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a class="nav-link<%= title === 'Home' ? ' active' : '' %>" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<%= title === 'About Us' ? ' active' : '' %>" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<%= title === 'Campus Events' ? ' active' : '' %>" href="/events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link<%= title === 'Contact' ? ' active' : '' %>" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
