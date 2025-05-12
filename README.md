@@ -25,17 +25,19 @@ This project is a dynamic community portal website built for [Your Club Name Her
 4. Visit `http://localhost:3000` in your browser
 
 ## 📂 Folder Structure 📂
-.
- * [tree-md](./tree-md)
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
+
+ * [Public](https://github.com/MarkusR22/WPR381-Project/tree/main/public)
+   * [css](https://github.com/MarkusR22/WPR381-Project/tree/main/public/css)
+   * [images](https://github.com/MarkusR22/WPR381-Project/tree/main/public/images)
+ * [routes](https://github.com/MarkusR22/WPR381-Project/tree/main/routes)
+   * [pageRoutes.js](https://github.com/MarkusR22/WPR381-Project/blob/main/routes/pageRoutes.js)
+ * [Units](https://github.com/MarkusR22/WPR381-Project/tree/main/utils)
+   * [eventUtils.js](https://github.com/MarkusR22/WPR381-Project/blob/main/utils/eventUtils.js)
+ * [views](https://github.com/MarkusR22/WPR381-Project/tree/main/views)
+   * [errors](https://github.com/MarkusR22/WPR381-Project/tree/main/views/errors)
+   * [pages](https://github.com/MarkusR22/WPR381-Project/tree/main/views/pages)
+   * [partials](https://github.com/MarkusR22/WPR381-Project/tree/main/views/partials)
+ * ([./README.md](https://github.com/MarkusR22/WPR381-Project/blob/main/README.md))
  * [dir3](./dir3)
 
 ## 🖼 Pages 🖼
