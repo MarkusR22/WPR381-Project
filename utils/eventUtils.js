@@ -15,4 +15,13 @@ function sortEvents(events, sortOrder){
   return events;
 }
 
-module.exports = {filterEvents, sortEvents};
+function getUpcomingEvents(events) {
+  const today = new Date();
+
+  return events
+    .filter(event => new Date(event.date) >= today) 
+    .sort((a, b) => new Date(a.date) - new Date(b.date)) 
+    .slice(0, 3); 
+}
+
+module.exports = {filterEvents, sortEvents, getUpcomingEvents};

@@ -3,7 +3,7 @@
 const express = require('express');
 const router = express.Router();
 
-const { filterEvents, sortEvents } = require('../utils/eventUtils.js');
+const { filterEvents, sortEvents, getUpcomingEvents } = require('../utils/eventUtils.js');
 
 const teamMembers = [];
 const events = [
