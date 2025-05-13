@@ -7,28 +7,22 @@
   <title><%= title %></title>
 
   <link rel="stylesheet" href="/css/style.css">
-  <!-- Bootstrap CSS -->
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
 
-  <nav class="nav">
-    <div class="container">
-      <a class="nav-brand" href="/">Community Portal</a>
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a class="nav-link<%= title === 'Home' ? ' active' : '' %>" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link<%= title === 'About Us' ? ' active' : '' %>" href="/about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link<%= title === 'Campus Events' ? ' active' : '' %>" href="/events">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link<%= title === 'Contact' ? ' active' : '' %>" href="/contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  
+ <nav class="nav-bar">
+      <div class="nav-container">
+        <div class="nav-title">Community Portal</div>
+        <div class="nav-links">
+          <a href="/" class="<%= title === 'Home' ? 'active' : '' %>">Home</a>
+          <a href="/about" class="<%= title === 'About Us' ? 'active' : '' %>">About</a>
+          <a href="/events" class="<%= title === 'Campus Events' ? 'active' : '' %>">Events</a>
+          <a href="/contact" class="<%= title === 'Contact' ? 'active' : '' %>">Contact</a>
+        </div>
+      </div>
+    </nav>
+
