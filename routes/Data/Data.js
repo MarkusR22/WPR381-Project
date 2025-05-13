@@ -8,13 +8,13 @@ const teamMembers = [
       {
         id: 1,
         name: "Markus Du Plessis",
-        role: "Backend",
+        role: "Frontend",
         studentId: "600611"
       },
       {
         id: 2,
         name: "Markus Reblin",
-        role: "Frontend",
+        role: "Backend",
         studentId: "578083"
       },
       {
