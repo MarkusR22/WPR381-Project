@@ -21,11 +21,17 @@
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       <% events.forEach(event => { %>
         <div class="col">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
-              <h5 class="card-title"><%= event.eventName %></h5>
-              <h6 class="card-subtitle mb-2 text-muted"><%= event.club %> • <%= event.date %></h6>
-              <p class="card-text"><%= event.description %></p>
+          <div class="card shadow-sm text-white position-relative" style="background: url('<%= event.imageUrl %>') center / cover no-repeat; height: 250px;">
+            <!-- Title shown by default -->
+            <div class="card-overlay card-title-only">
+              <h5 class="card-title m-0"><%= event.title %></h5>
+            </div>
+
+            <!-- Full details shown on hover -->
+            <div class="card-overlay card-hover-details">
+              <h5 class="card-title"><%= event.title %></h5>
+              <h6 class="card-subtitle mb-2"><%= event.club %> • <%= event.date %></h6>
+              <p class="card-text text-white"><%= event.description %></p>
             </div>
           </div>
         </div>

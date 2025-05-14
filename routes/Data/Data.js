@@ -37,7 +37,7 @@ const events = [
         date: "2025-06-03",
         location: Venues[1],
         description: "Join us for an All-Night LAN party featuring competative games and casual rpg's",
-        imageUrl: '../public/images/LANParty.jpg',
+        imageUrl: '/images/LANParty.jpg',
         registrationLink: "#"
       },
       {
@@ -47,7 +47,7 @@ const events = [
         date: "2025-06-10",
         location: Venues[2],
         description: "Compete in a campus-wide FIFA tournament and win awesome prizes",
-        imageUrl: '../public/images/FIFAGame.jpg',
+        imageUrl: '/images/FIFAGame.jpg',
         registrationLink: "#"
       },
       {
@@ -57,7 +57,7 @@ const events = [
         date: "2025-06-23",
         location: Venues[0],
         description: "A Hands on introduction to creating your first simple game using unity",
-        imageUrl: '../public/images/GameDev.jpg',
+        imageUrl: '/images/GameDev.jpg',
         registrationLink: "#"
       },
       {
@@ -67,7 +67,7 @@ const events = [
         date: "2025-06-30",
         location: Venues[3],
         description: "Learn the basics of speedrunning and watch the pros go at it live!",
-        imageUrl: '../public/images/SpeedRunning.jpg',
+        imageUrl: '/images/SpeedRunning.jpg',
         registrationLink: "#"
       },
       {
@@ -77,7 +77,7 @@ const events = [
         date: "2025-06-05",
         location: Venues[0],
         description: "Join us for a day to do some exercises!",
-        imageUrl: '../public/images/Fitness.jpg',
+        imageUrl: '/images/Fitness.jpg',
         registrationLink: "#"
       },
       
