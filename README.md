@@ -44,7 +44,7 @@ It allows users to learn more about the club, browse upcoming events, and get in
 * ↓[routes](https://github.com/MarkusR22/WPR381-Project/tree/main/routes)
    * ↳[Data](https://github.com/MarkusR22/WPR381-Project/tree/main/routes/Data)
    * ↳[pageRoutes.js](https://github.com/MarkusR22/WPR381-Project/blob/main/routes/pageRoutes.js)
-* ↓[Units](https://github.com/MarkusR22/WPR381-Project/tree/main/utils)
+* ↓[utils](https://github.com/MarkusR22/WPR381-Project/tree/main/utils)
    * ↳[eventUtils.js](https://github.com/MarkusR22/WPR381-Project/blob/main/utils/eventUtils.js)
 * ↓[views](https://github.com/MarkusR22/WPR381-Project/tree/main/views)
    * ↳[errors](https://github.com/MarkusR22/WPR381-Project/tree/main/views/errors)
