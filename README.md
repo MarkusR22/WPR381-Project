@@ -1,7 +1,7 @@
 <body style="font-family:'Roboto';">
 <h1 align="center">🎮 Community Events & Clubs Portal 🎮</h1> 
  
-<h2>💡 What This Project Does 💡</h2>
+<h2 align="center">💡 What This Project Does 💡</h2>
 This project is a dynamic community portal website built for Belgium Campus Students!
 It allows users to learn more about the club, browse upcoming events, and get in touch through a contact form. It is built using Node.js, Express, and EJS templating.
  
