@@ -6,23 +6,23 @@ This project is a dynamic community portal website built for Belgium Campus Stud
 It allows users to learn more about the club, browse upcoming events, and get in touch through a contact form. It is built using Node.js, Express, and EJS templating.
  
 <h2 align="center">🚀 Technologies Used 🚀</h2> 
-- Node.js
-- Express.js
-- EJS
-- Git + GitHub
+*- Node.js
+*- Express.js
+*- EJS
+*- Git + GitHub
  
 <h2 align="center">👥 Team Members & Roles 👥</h2> 
-- TEAM 6 – Team Leader
-- Markus Reblin(578083) – Backend Developer
-- Markus Du Plessis(600611) – Frontend Developer
-- Barend Blom(600228) – Data Manager
-- Iwan Groenewald(600166) – Documentation Manager
+*- TEAM 6 – Team Leader
+*- Markus Reblin(578083) – Backend Developer
+*- Markus Du Plessis(600611) – Frontend Developer
+*- Barend Blom(600228) – Data Manager
+*- Iwan Groenewald(600166) – Documentation Manager
  
 <h2 align="center">Setup Instructions</h2> 
-1. Clone the repo
-2. Run `npm install` to install dependencies
-3. Run `npm run dev` to start the server with nodemon
-4. Visit `http://localhost:3000` in your browser
+*1. Clone the repo
+*2. Run `npm install` to install dependencies
+*3. Run `npm run dev` to start the server with nodemon
+*4. Visit `http://localhost:3000` in your browser
  
 <h2 align="center">📂 Folder Structure 📂</h2> 
  
@@ -46,37 +46,37 @@ It allows users to learn more about the club, browse upcoming events, and get in
  <h2 align="center">🖼 Pages 🖼</h2>
 
  <p align="center">
-- **Home:** Welcome message + upcoming events
+*- **Home:** Welcome message + upcoming events
  ![image](https://github.com/user-attachments/assets/7719215f-a055-4fde-9fbe-01782da93c03)
 
-- **About:** Info about the team/club
+*- **About:** Info about the team/club
  ![image](https://github.com/user-attachments/assets/9cddd90f-fd89-4089-89a8-23ea694c5484)
  ![image](https://github.com/user-attachments/assets/303097ce-317b-4e4a-9b38-3315f61a55a1)
 
 
-- **Events:** List of club events (from array in backend)
+*- **Events:** List of club events (from array in backend)
  ![image](https://github.com/user-attachments/assets/975c326f-6688-46b6-bef1-543d09b2bbb1)
 
-- **Contact:** Contact form (name, email, message)
+*- **Contact:** Contact form (name, email, message)
  ![image](https://github.com/user-attachments/assets/02309320-630b-43bc-8839-495856358115)
 
-- **Thank You:** Confirmation page after submitting form
+*- **Thank You:** Confirmation page after submitting form
  ![image](https://github.com/user-attachments/assets/24f57d34-a60b-4979-9961-1134919f8c04)
 </p>
 
  
 <h2 align="center">🧠 How It Works 🧠</h2> 
-- Events and About info are pulled from arrays in the backend
-- Contact form uses POST method and stores data in a temp array
-- EJS is used to dynamically render data into templates
-- Header and footer are reused across all pages using partials
+*- Events and About info are pulled from arrays in the backend
+*- Contact form uses POST method and stores data in a temp array
+*- EJS is used to dynamically render data into templates
+*- Header and footer are reused across all pages using partials
 
  <h2 align="center">✅ Features ✅</h2> 
-- Dynamic content rendering
-- Form submission with validation
-- Clean, modular routing
-- Git version control for collaboration
+*- Dynamic content rendering
+*- Form submission with validation
+*- Clean, modular routing
+*- Git version control for collaboration
  
 <h2 align="center">🙌 Reflection 🙌</h2>
-This project helped us understand routing, templating, and real-world collaboration using Git. We learned how to work as a team and build a complete web app from scratch.
+*This project helped us understand routing, templating, and real-world collaboration using Git. We learned how to work as a team and build a complete web app from scratch.
 </body>
