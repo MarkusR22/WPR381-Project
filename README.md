@@ -1,4 +1,4 @@
-<body style="font-family:'Roboto';">
+![image](https://github.com/user-attachments/assets/86f5a030-0875-4c39-907f-2851cb60aa6f)<body style="font-family:'Roboto';">
 <h1 align="center">🎮 Belgium Campus Events & Clubs Portal 🎮</h1> 
  
 <h2>💡 What This Project Does 💡</h2>
@@ -11,22 +11,30 @@ It allows users to learn more about the club, browse upcoming events, and get in
   <li> Node.js</li>
   <li>Express.js</li>
   <li>EJS</li>
-  <li><Git + GitHub/li>
+  <li>Git + GitHub</li>
  </ul>
 </p>
  
 <h2 align="center">👥 Team Members & Roles 👥</h2> 
-- TEAM 6 – Team Leader
-- Markus Reblin(578083) – Backend Developer
-- Markus Du Plessis(600611) – Frontend Developer
-- Barend Blom(600228) – Data Manager
-- Iwan Groenewald(600166) – Documentation Manager
+<p>
+ <ul>
+  <li>TEAM 6 – Team Leader</li>
+  <li>Markus Reblin(578083) – Backend Developer</li>
+  <li>Markus Du Plessis(600611) – Frontend Developer</li>
+  <li>Barend Blom(600228) – Data Manager</li>
+  <li>Iwan Groenewald(600166) – Documentation Manager</li>
+ </ul>
+</p>
  
 <h2 align="center">Setup Instructions</h2> 
-*1. Clone the repo
-*2. Run `npm install` to install dependencies
-*3. Run `npm run dev` to start the server with nodemon
-*4. Visit `http://localhost:3000` in your browser
+<p>
+ <ol>
+  <li>Clone the repo</li>
+  <li>Run <code>npm install</code> to install dependencies</li>
+  <li>Run <code>npm run dev</code> to start the server with nodemon</li>
+  <li>Visit <code>http://localhost:3000</code> in the terminal</li>
+ </ol>
+</p>
  
 <h2 align="center">📂 Folder Structure 📂</h2> 
  
@@ -49,38 +57,42 @@ It allows users to learn more about the club, browse upcoming events, and get in
  
  <h2 align="center">🖼 Pages 🖼</h2>
 
- <p align="center">
-*- **Home:** Welcome message + upcoming events
- ![image](https://github.com/user-attachments/assets/7719215f-a055-4fde-9fbe-01782da93c03)
+<div align="center">
+  <h3>Home: Welcome message + upcoming events</h3>
+  <img src="https://github.com/user-attachments/assets/cfc996f1-b309-4d55-999d-f5b0771dcaf7" alt="Home 2" />
 
-*- **About:** Info about the team/club
- ![image](https://github.com/user-attachments/assets/9cddd90f-fd89-4089-89a8-23ea694c5484)
- ![image](https://github.com/user-attachments/assets/303097ce-317b-4e4a-9b38-3315f61a55a1)
+  <h3>About: Info about the team/club</h3>
+  <img src="https://github.com/user-attachments/assets/9cddd90f-fd89-4089-89a8-23ea694c5484" alt="About 1" />
+  <img src="https://github.com/user-attachments/assets/303097ce-317b-4e4a-9b38-3315f61a55a1" alt="About 2" />
 
+  <h3>Events: List of club events (from array in backend)</h3>
+  <img src="https://github.com/user-attachments/assets/975c326f-6688-46b6-bef1-543d09b2bbb1" alt="Events" />
 
-*- **Events:** List of club events (from array in backend)
- ![image](https://github.com/user-attachments/assets/975c326f-6688-46b6-bef1-543d09b2bbb1)
+  <h3>Contact: Contact form (name, email, message)</h3>
+  <img src="https://github.com/user-attachments/assets/02309320-630b-43bc-8839-495856358115" alt="Contact" />
 
-*- **Contact:** Contact form (name, email, message)
- ![image](https://github.com/user-attachments/assets/02309320-630b-43bc-8839-495856358115)
+  <h3>Thank You: Confirmation page after submitting form</h3>
+  <img src="https://github.com/user-attachments/assets/24f57d34-a60b-4979-9961-1134919f8c04" alt="Thank You" />
+</div>
 
-*- **Thank You:** Confirmation page after submitting form
- ![image](https://github.com/user-attachments/assets/24f57d34-a60b-4979-9961-1134919f8c04)
-</p>
 
  
 <h2 align="center">🧠 How It Works 🧠</h2> 
-*- Events and About info are pulled from arrays in the backend
-*- Contact form uses POST method and stores data in a temp array
-*- EJS is used to dynamically render data into templates
-*- Header and footer are reused across all pages using partials
+ <ul>
+  <li>Events and About info are pulled from arrays in the backend</li>
+  <li>Contact form uses POST method and stores data in a temp array</li>
+  <li>EJS is used to dynamically render data into templates</li>
+  <li>Header and footer are reused across all pages using partials</li>
+ </ul>
 
  <h2 align="center">✅ Features ✅</h2> 
-*- Dynamic content rendering
-*- Form submission with validation
-*- Clean, modular routing
-*- Git version control for collaboration
+  <ul>
+  <li>Dynamic content rendering</li>
+  <li>Form submission with validation</li>
+  <li>Clean, modular routing</li>
+  <li>Git version control for collaboration</li>
+ </ul>
  
 <h2 align="center">🙌 Reflection 🙌</h2>
-*This project helped us understand routing, templating, and real-world collaboration using Git. We learned how to work as a team and build a complete web app from scratch.
+This project helped us understand routing, templating, and real-world collaboration using Git. We learned how to work as a team and build a complete web app from scratch.
 </body>
