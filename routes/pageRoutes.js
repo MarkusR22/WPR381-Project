@@ -9,7 +9,10 @@ const {filterEvents, sortEvents, getUpcomingEvents } = require('../utils/eventUt
 
 
 router.get('/', (req, res) => {
-    res.render('pages/home', {events: data.events})
+    res.render('pages/home', {
+        events: getUpcomingEvents(data.events),
+        includeCountdownScript: true
+    });
 });
 
 router.get('/about', (req, res) => {
