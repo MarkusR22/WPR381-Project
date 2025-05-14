@@ -43,10 +43,22 @@ It allows users to learn more about the club, browse upcoming events, and get in
  
 ## 🖼 Pages 🖼
 - **Home:** Welcome message + upcoming events
+ ![image](https://github.com/user-attachments/assets/7719215f-a055-4fde-9fbe-01782da93c03)
+
 - **About:** Info about the team/club
+ ![image](https://github.com/user-attachments/assets/9cddd90f-fd89-4089-89a8-23ea694c5484)
+ ![image](https://github.com/user-attachments/assets/303097ce-317b-4e4a-9b38-3315f61a55a1)
+
+
 - **Events:** List of club events (from array in backend)
+ ![image](https://github.com/user-attachments/assets/975c326f-6688-46b6-bef1-543d09b2bbb1)
+
 - **Contact:** Contact form (name, email, message)
+ ![image](https://github.com/user-attachments/assets/02309320-630b-43bc-8839-495856358115)
+
 - **Thank You:** Confirmation page after submitting form
+ ![image](https://github.com/user-attachments/assets/24f57d34-a60b-4979-9961-1134919f8c04)
+
  
 ## 🧠 How It Works 🧠
 - Events and About info are pulled from arrays in the backend
@@ -60,5 +72,5 @@ It allows users to learn more about the club, browse upcoming events, and get in
 - Clean, modular routing
 - Git version control for collaboration
  
-## 🙌 Reflection 
+## 🙌 Reflection 🙌
 This project helped us understand routing, templating, and real-world collaboration using Git. We learned how to work as a team and build a complete web app from scratch.
