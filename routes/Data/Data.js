@@ -80,7 +80,56 @@ const events = [
         imageUrl: '../public/images/Fitness.jpg',
         registrationLink: "#"
       },
-      
+      {
+        id: 5,
+        club: clubs[0],
+        title: "VR Gaming Tournament",
+        date: "2025-11-08",
+        location: Venues[0],
+        description: "Immersive virtual reality competition across multiple game genres",
+        imageUrl: '../public/images/VRGaming.jpg',
+        registrationLink: "#"
+    },
+    {
+        id: 6,
+        club: clubs[1],
+        title: "3v3 Basketball Championship",
+        date: "2025-12-06",
+        location: Venues[2],
+        description: "Fast-paced streetball tournament with professional referees",
+        imageUrl: '../public/images/Basketball.jpg',
+        registrationLink: "#"
+    },
+    {
+        id: 7,
+        club: clubs[2],
+        title: "Blockchain Workshop",
+        date: "2026-01-17",
+        location: Venues[1],
+        description: "Practical guide to building decentralized applications",
+        imageUrl: '../public/images/Blockchain.jpg',
+        registrationLink: "#"
+    },
+    {
+        id: 8,
+        club: clubs[0],
+        title: "Board Game Night",
+        date: "2026-02-14",
+        location: Venues[3],
+        description: "Strategic tabletop gaming session with rare collector's editions",
+        imageUrl: '../public/images/BoardGame.jpg',
+        registrationLink: "#"
+    },
+    {
+        id: 9,
+        club: clubs[1],
+        title: "Martial Arts Showcase",
+        date: "2026-03-21",
+        location: Venues[2],
+        description: "Demonstrations and open mat sessions for various combat styles",
+        imageUrl: '../public/images/MartialArts.jpg',
+        registrationLink: "#"
+    }
 ];
 
 const contactSubmissions = [];//Gets inserted into from use input
