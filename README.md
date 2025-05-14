@@ -1,29 +1,29 @@
-# 🎮 Belgium Campus Events & Clubs Portal 🎮
+<h1 align="center">🎮 Belgium Campus Events & Clubs Portal 🎮</h1> 
  
-## 💡 What This Project Does 💡
+<h2></h2>💡 What This Project Does 💡
 This project is a dynamic community portal website built for Belgium Campus Students!
 It allows users to learn more about the club, browse upcoming events, and get in touch through a contact form. It is built using Node.js, Express, and EJS templating.
  
-## 🚀 Technologies Used 🚀
+<h2>🚀 Technologies Used 🚀</h2> 
 - Node.js
 - Express.js
 - EJS
 - Git + GitHub
  
-## 👥 Team Members & Roles 👥
+<h2>👥 Team Members & Roles 👥</h2> 
 - TEAM 6 – Team Leader
 - Markus Reblin(578083) – Backend Developer
 - Markus Du Plessis(600611) – Frontend Developer
 - Barend Blom(600228) – Data Manager
 - Iwan Groenewald(600166) – Documentation Manager
  
-## Setup Instructions
+<h2><Setup Instructions/h2> 
 1. Clone the repo
 2. Run `npm install` to install dependencies
 3. Run `npm run dev` to start the server with nodemon
 4. Visit `http://localhost:3000` in your browser
  
-## 📂 Folder Structure 📂
+<h2>📂 Folder Structure 📂</h2> 
  
 * [Public](https://github.com/MarkusR22/WPR381-Project/tree/main/public)
    * [css](https://github.com/MarkusR22/WPR381-Project/tree/main/public/css)
