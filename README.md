@@ -62,7 +62,7 @@ It allows users to learn more about the club, browse upcoming events, and get in
   <img src="https://github.com/user-attachments/assets/cfc996f1-b309-4d55-999d-f5b0771dcaf7" alt="Home 2" />
 
   <h3>About: Info about the team</h3>
-  <img src="https://github.com/user-attachments/assets/9cddd90f-fd89-4089-89a8-23ea694c5484" alt="About 1" />
+  <img src="https://github.com/user-attachments/assets/d9570114-ae46-45f5-89d7-0fd9bab92ad8" alt="About 1" />
   <img src="https://github.com/user-attachments/assets/303097ce-317b-4e4a-9b38-3315f61a55a1" alt="About 2" />
 
   <h3>Events: List of club events</h3>
