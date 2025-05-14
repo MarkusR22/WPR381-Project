@@ -6,23 +6,24 @@
   </div>
     <div class="container py-5">
     <h1 class="mb-4 text-center">Campus Events</h1>
-    <form class="row mb-4" method="GET" action="/events">
-  <div class="col-md-6">
-    <select name="club" class="form-select" onchange="this.form.submit()">
-      <option value="all" <%= selectedClub === 'all' ? 'selected' : '' %>>All Clubs</option>
-      <option value="Gaming" <%= selectedClub === 'Gaming' ? 'selected' : '' %>>Gaming</option>
-      <option value="Sports" <%= selectedClub === 'Sports' ? 'selected' : '' %>>Sports</option>
-      <option value="IT" <%= selectedClub === 'IT' ? 'selected' : '' %>>IT</option>
-    </select>
-  </div>
-  <div class="col-md-6">
-    <select name="sort" class="form-select" onchange="this.form.submit()">
-      <option value="none" <%= selectedSort === 'none' ? 'selected' : '' %>>Sort by Date</option>
-      <option value="oldest-newest" <%= selectedSort === 'oldest-newest' ? 'selected' : '' %>>Date: Oldest-Newest</option>
-      <option value="newest-oldest" <%= selectedSort === 'newest-oldest' ? 'selected' : '' %>>Date: Newest-Oldest</option>
-    </select>
-  </div>
-</form>
+    <form class="mb-4 d-flex gap-3 flex-wrap" method="GET" action="/events">
+      <div style="flex: 1;">
+        <select name="club" class="form-select" onchange="this.form.submit()">
+          <option value="all" <%= selectedClub === 'all' ? 'selected' : '' %>>All Clubs</option>
+          <option value="Gaming" <%= selectedClub === 'Gaming' ? 'selected' : '' %>>Gaming</option>
+          <option value="Sports" <%= selectedClub === 'Sports' ? 'selected' : '' %>>Sports</option>
+          <option value="IT" <%= selectedClub === 'IT' ? 'selected' : '' %>>IT</option>
+        </select>
+      </div>
+      <div style="flex: 1;">
+        <select name="sort" class="form-select" onchange="this.form.submit()">
+          <option value="none" <%= selectedSort === 'none' ? 'selected' : '' %>>Sort by Date</option>
+          <option value="oldest-newest" <%= selectedSort === 'oldest-newest' ? 'selected' : '' %>>Date: Oldest-Newest</option>
+          <option value="newest-oldest" <%= selectedSort === 'newest-oldest' ? 'selected' : '' %>>Date: Newest-Oldest</option>
+        </select>
+      </div>
+    </form>
+    
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       <% events.forEach(event => { %>
         <div class="col">

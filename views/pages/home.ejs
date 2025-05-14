@@ -14,7 +14,8 @@
     <p>Stay connected, share events, and discover whats happening in our community.</p>
   </section>
 
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="event-container px-5 mt-5 mb-4">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       <% events.forEach(event => { %>
         <div class="col">
           <div class="card shadow-sm text-white position-relative" style="background: url('<%= event.imageUrl %>') center / cover no-repeat; height: 250px;">
@@ -34,7 +35,7 @@
           </div>
         </div>
       <% }) %>
+    </div>
   </div>
-  
 </main>
 <%- include('../partials/footer') %>
