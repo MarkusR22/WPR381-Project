@@ -38,7 +38,6 @@ const events = [
         location: Venues[1],
         description: "Join us for an All-Night LAN party featuring competative games and casual rpg's",
         imageUrl: '/images/LANParty.jpg',
-        registrationLink: "#"
       },
       {
         id: 1,
@@ -48,7 +47,6 @@ const events = [
         location: Venues[2],
         description: "Compete in a campus-wide FIFA tournament and win awesome prizes",
         imageUrl: '/images/FIFAGame.jpg',
-        registrationLink: "#"
       },
       {
         id: 2,
@@ -58,7 +56,6 @@ const events = [
         location: Venues[0],
         description: "A Hands on introduction to creating your first simple game using unity",
         imageUrl: '/images/GameDev.jpg',
-        registrationLink: "#"
       },
       {
         id: 3,
@@ -68,7 +65,6 @@ const events = [
         location: Venues[3],
         description: "Learn the basics of speedrunning and watch the pros go at it live!",
         imageUrl: '/images/SpeedRunning.jpg',
-        registrationLink: "#"
       },
       {
         id: 4,
@@ -78,7 +74,6 @@ const events = [
         location: Venues[0],
         description: "Join us for a day to do some exercises!",
         imageUrl: '/images/Fitness.jpg',
-        registrationLink: "#"
       },
       {
         id: 5,
@@ -88,7 +83,6 @@ const events = [
         location: Venues[0],
         description: "Immersive virtual reality competition across multiple game genres",
         imageUrl: '/images/VRGaming.jpg',
-        registrationLink: "#"
     },
     {
         id: 6,
@@ -98,7 +92,6 @@ const events = [
         location: Venues[2],
         description: "Fast-paced streetball tournament with professional referees",
         imageUrl: '/images/Basketball.jpg',
-        registrationLink: "#"
     },
     {
         id: 7,
@@ -108,7 +101,6 @@ const events = [
         location: Venues[1],
         description: "Practical guide to building decentralized applications",
         imageUrl: '/images/Blockchain.jpg',
-        registrationLink: "#"
     },
     {
         id: 8,
@@ -118,7 +110,6 @@ const events = [
         location: Venues[3],
         description: "Strategic tabletop gaming session with rare collector's editions",
         imageUrl: '/images/BoardGame.jpg',
-        registrationLink: "#"
     },
     {
         id: 9,
@@ -128,7 +119,6 @@ const events = [
         location: Venues[2],
         description: "Demonstrations and open mat sessions for various combat styles",
         imageUrl: '/images/MartialArts.jpg',
-        registrationLink: "#"
     }
 ];
 

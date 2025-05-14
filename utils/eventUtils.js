@@ -1,3 +1,4 @@
+//Filtering events array based on club
 function filterEvents(events, club){
   if (!club || club === 'all'){
     return events;
@@ -5,6 +6,7 @@ function filterEvents(events, club){
   return events.filter(event => event.club === club);
 }
 
+//Sorting events array based on date
 function sortEvents(events, sortOrder){
   if (sortOrder === 'oldest-newest'){
     return events.sort((a,b) => new Date(a.date) - new Date(b.date));
@@ -15,6 +17,7 @@ function sortEvents(events, sortOrder){
   return events;
 }
 
+//Getting the 3 closest events
 function getUpcomingEvents(events) {
   const today = new Date();
 

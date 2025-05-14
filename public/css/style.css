@@ -697,7 +697,7 @@ select {
 .event-container {
   margin-left: 3rem;
   margin-right: 3rem;
-  padding-top: 5rem;
+  padding-top: 7rem;
 }
 
 @media (min-width: 1200px) {

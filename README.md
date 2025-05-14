@@ -18,7 +18,7 @@ It allows users to learn more about the club, browse upcoming events, and get in
 <h2 align="center">👥 Team Members & Roles 👥</h2> 
 <p>
  <ul>
-  <li>TEAM 6 – Team Leader</li>
+  <li>Markus Reblin(578083) – Team Leader</li>
   <li>Markus Reblin(578083) – Backend Developer</li>
   <li>Markus Du Plessis(600611) – Frontend Developer</li>
   <li>Barend Blom(600228) – Data Manager</li>

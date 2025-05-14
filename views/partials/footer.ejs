@@ -4,6 +4,7 @@
   </div>
 </footer>
 </body>
+<!--Function for timer functionality. Only added if page needs it, hence saving resources for pages not using this function-->
 <% if (typeof includeCountdownScript !== 'undefined' && includeCountdownScript) { %>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
@@ -20,23 +21,27 @@
         const [year, month, day] = dateStr.split('-').map(Number);
         const eventDate = new Date(year, month - 1, day);
         const now = new Date();
+
+        //Getting difference in time from current time until event
         const diff = eventDate - now;
 
         if (diff <= 0) {
           el.textContent = 'Event Started';
           return;
         }
-
+        //Calculating time remaining
         const days = Math.floor(diff / (1000 * 60 * 60 * 24));
         const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
         const minutes = Math.floor((diff / (1000 * 60)) % 60);
         const seconds = Math.floor((diff / 1000) % 60);
-
+        
+        //Adding timer value to element in webpage
         el.textContent = `Event starts in: ${days}d ${hours}h ${minutes}m ${seconds}s`;
       });
     }
 
     updateCountdowns();
+    //Updating timer every second
     setInterval(updateCountdowns, 1000);
   });
 </script>
