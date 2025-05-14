@@ -24,4 +24,5 @@ function getUpcomingEvents(events) {
     .slice(0, 3); 
 }
 
+
 module.exports = {filterEvents, sortEvents, getUpcomingEvents};
