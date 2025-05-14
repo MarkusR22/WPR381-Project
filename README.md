@@ -29,7 +29,7 @@ It allows users to learn more about the club, browse upcoming events, and get in
 <h2 align="center">Setup Instructions</h2> 
 <p>
  <ol>
-  <li>Clone the repo</li>
+  <li>Clone the repository</li>
   <li>Run <code>npm install</code> to install dependencies</li>
   <li>Run <code>npm run dev</code> to start the server with nodemon</li>
   <li>Visit <code>http://localhost:3000</code> in the terminal</li>
@@ -61,14 +61,14 @@ It allows users to learn more about the club, browse upcoming events, and get in
   <h3>Home: Welcome message + upcoming events</h3>
   <img src="https://github.com/user-attachments/assets/cfc996f1-b309-4d55-999d-f5b0771dcaf7" alt="Home 2" />
 
-  <h3>About: Info about the team/club</h3>
+  <h3>About: Info about the team</h3>
   <img src="https://github.com/user-attachments/assets/9cddd90f-fd89-4089-89a8-23ea694c5484" alt="About 1" />
   <img src="https://github.com/user-attachments/assets/303097ce-317b-4e4a-9b38-3315f61a55a1" alt="About 2" />
 
-  <h3>Events: List of club events (from array in backend)</h3>
+  <h3>Events: List of club events</h3>
   <img src="https://github.com/user-attachments/assets/975c326f-6688-46b6-bef1-543d09b2bbb1" alt="Events" />
 
-  <h3>Contact: Contact form (name, email, message)</h3>
+  <h3>Contact: Contact form</h3>
   <img src="https://github.com/user-attachments/assets/02309320-630b-43bc-8839-495856358115" alt="Contact" />
 
   <h3>Thank You: Confirmation page after submitting form</h3>
