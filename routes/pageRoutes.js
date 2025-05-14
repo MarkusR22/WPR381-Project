@@ -3,11 +3,10 @@
 const express = require('express');
 const router = express.Router();
 const data = require('../routes/Data/Data')
+const {filterEvents, sortEvents, getUpcomingEvents } = require('../utils/eventUtils.js');
 
-//const teamMembers = []; Sent to Data file
-//const events = [];
 
-//const contactSubmissions = [];
+
 
 router.get('/', (req, res) => {
     res.render('pages/home', {events: data.events})
@@ -18,7 +17,15 @@ router.get('/about', (req, res) => {
 });
 
 router.get('/events', (req, res) => {
-    res.render('pages/events', {events: data.events})
+    const {club, sort} = req.query;
+
+    let filtered = filterEvents(data.events, club);
+    let sorted = sortEvents(filtered, sort);
+    res.render('pages/events', {
+        events: sorted,
+        selectedClub: club || 'all',
+        selectedSort: sort || 'none'
+    })
 });
 
 router.get('/contact', (req, res) => {
